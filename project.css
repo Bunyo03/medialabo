@@ -1,0 +1,16 @@
+h1{
+    background-color: bisque;
+}
+img.gazouni{
+float: left;  
+margin: 5px;
+}
+.コース詳細{
+    border: solid 1px black;
+}
+div#コース値段{
+    color: red;
+}
+span{
+    font-size: x-large;
+}
