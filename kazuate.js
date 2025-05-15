@@ -10,10 +10,14 @@ let seikai = 0;
 let result = document.querySelector('p#result');
 let kaisuSpan = document.querySelector('span#kaisu');
 
+
 function greeting() {
   let yoso = Number(document.querySelector('input[name="kazu"]').value);
   kaisu = kaisu+1;
   kaisuSpan.textContent = kaisu;
+
+  let p = document.querySelector('span#answer');
+    p.textContent = yoso
 
   if (seikai === 1 || kaisu > 3) {
     result.textContent = "答えは " + kotae + " でした。すでにゲームは終わっています。";
