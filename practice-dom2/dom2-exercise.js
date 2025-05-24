@@ -15,4 +15,22 @@ let gakka = [
 ];
 
 //////////////// ここから下にプログラムを書きたそう!
+function greeting(){
+let p = document.createElement('p');
+p.textContent = campus["address"]
+let u = document.querySelector('h2#addr'); 
+u.insertAdjacentElement('afterend',p)
 
+for(let n of gakka){
+let uu=document.createElement('ul');
+	l = document.createElement('li');
+	l.textContent = (n.name)
+	u = document.querySelector('h2#dept'); 
+	u.insertAdjacentElement('afterend',uu)
+	u.insertAdjacentElement('afterend',l)
+	uu.appendChild(l);  //uuをlに入れる
+  }
+}
+
+  let show = document.querySelector('button#show') 
+  show.addEventListener('click',greeting)  //イベントハンドラとして登録 
