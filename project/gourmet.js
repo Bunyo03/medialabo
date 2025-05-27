@@ -79,11 +79,11 @@ let b = document.querySelector('button#print')
           // 区切り線
           let hr = document.createElement('hr');
           container.appendChild(hr);
-      }
+      
     }
       // 既存のp要素の後ろに表示
       p.insertAdjacentElement('afterend', container);
-  
+  }
   
 
 // 課題6-1 のイベントハンドラ登録処理は以下に記述
