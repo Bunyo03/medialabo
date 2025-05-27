@@ -27,7 +27,7 @@ let b = document.querySelector('button#print')
   
       // 表示用のコンテナを作る（例：div）
       let container = document.createElement('div');
-    function printDom(){
+    
       for (let i = 0; i < 2; i++) {
           let shop = data.results.shop[i];
   
@@ -83,7 +83,7 @@ let b = document.querySelector('button#print')
     }
       // 既存のp要素の後ろに表示
       p.insertAdjacentElement('afterend', container);
-  }
+  
   
 
 // 課題6-1 のイベントハンドラ登録処理は以下に記述
