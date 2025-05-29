@@ -38,6 +38,7 @@ let b = document.querySelector('button#sendRequest')
       container.id='result'
     
       for (let i = 0; i < 2; i++) {
+
           let shop = data.results.shop[i];
   
           // 店舗名
@@ -84,11 +85,6 @@ let b = document.querySelector('button#sendRequest')
           let p_station = document.createElement('p');
           p_station.textContent = "【最寄駅】" + shop.station_name;
           container.appendChild(p_station);
-  
-          // 線
-          let hr = document.createElement('hr');
-          container.appendChild(hr);
-      
     }
       // pの後ろに表示
       p.insertAdjacentElement('afterend', container);

@@ -14,3 +14,12 @@ div#コース値段{
 span{
     font-size: x-large;
 }
+
+input#shimei{
+    border-radius:  20px;
+    width: 300px;
+}
+
+h2{
+    background-color: bisque;
+}
