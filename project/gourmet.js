@@ -17,11 +17,18 @@ function print(data) {
   }
 }
 
-let b = document.querySelector('button#sendRequest') 
-  b.addEventListener('click',sendRequest)
 
+let b = document.querySelector('button#sendRequest');
+b.addEventListener('click', sendRequest);
   
   function printDom(data){
+
+    let s = document.querySelector('select#omise');
+	let idx = s.selectedIndex;	// idx 番目の option が選択された
+
+	let os = s.querySelectorAll('option');	// s の子要素 option をすべて検索
+	let o = os.item(idx);
+
 
     let reset = document.querySelector('div#result');
   if (reset) {
