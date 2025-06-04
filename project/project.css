@@ -1,25 +1,40 @@
-h1{
-    background-color: bisque;
-}
-img.gazouni{
-float: left;  
-margin: 5px;
-}
-.コース詳細{
-    border: solid 1px black;
-}
-div#コース値段{
-    color: red;
-}
-span{
-    font-size: x-large;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
 }
 
-input#shimei{
-    border-radius:  20px;
-    width: 300px;
+h1 {
+    color: #e67e22;
+    text-align: center;
 }
 
-h2{
-    background-color: bisque;
+select, button {
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#result h2, #result h3, #result h4 {
+    color: #16a085;
+    margin: 5px 0;
+}
+
+#result p {
+    margin: 5px 0;
+    color: #555;
 }
