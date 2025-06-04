@@ -1,7 +1,23 @@
-p.nikome {
-    background-color: #ffefaf;
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #d0e3f4;
+  color: #000000;
 }
 
-h3.nidaimei{
-    text-shadow: rgb(79, 79, 235) 1px 0 5px;
+h1, h2, h3 {
+  color: #000000;
+  background-color: #99caf1;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+p {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+a {
+  color: #5e5eff;
 }
