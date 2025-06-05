@@ -38,7 +38,7 @@ b.addEventListener('click', sendRequest);
 
 //ここから文字表示する
     let p = document.querySelector('p#message');
-      p.textContent = '2件ヒットしました';
+      p.textContent = '10件ヒットしました';
   
       //要素を作る
       let container = document.createElement('div');
