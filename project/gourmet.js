@@ -44,7 +44,7 @@ b.addEventListener('click', sendRequest);
       let container = document.createElement('div');
       container.id='result'
     
-      for (let i = 0; i < 2; i++) {
+      for (let i = 0; i < 10; i++) {
 
           let shop = data.results.shop[i];
   
@@ -83,6 +83,10 @@ b.addEventListener('click', sendRequest);
           let p_station = document.createElement('p');
           p_station.textContent = "【最寄駅】" + shop.station_name;
           container.appendChild(p_station);
+          
+          let p_sen = document.createElement('p');
+          p_station.textContent = "------------------------------------------------------------------";
+          container.appendChild(p_sen);
     }
       
       p.insertAdjacentElement('afterend', container);
